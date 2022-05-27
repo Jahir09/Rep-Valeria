@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: sans-serif;
+    width: 500px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+#menu li>a{
+    background-color:bisque(125, 123, 123);
+    color: rgb(211, 183, 230);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    min-width: 100px;
+}
+
+#menu li>a:hover{
+    color: rgba(192, 238, 236, 0.717);
+    background-color: rgba(206, 191, 191, 0.112);
+}
+#menu>li{
+    float: left;
+    text-align: center;
+}
+#menu>li>ul{
+    display: none;
+}
+#menu>li:hover>ul{
+    display: block;
+}
